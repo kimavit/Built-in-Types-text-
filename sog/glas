@@ -1,0 +1,12 @@
+s = input().lower()
+sog = "ауоыиэяюе"
+glas = "бвгджзйклмнпрстфхцчшщ"
+tot = 0
+cnt = 0
+for i in s:
+    if i in glas:
+        tot += 1
+    if i in sog:
+        cnt += 1
+print('Количество гласных букв равно', tot)
+print('Количество согласных букв равно', cnt)
