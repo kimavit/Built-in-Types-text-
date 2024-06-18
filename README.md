@@ -35,3 +35,13 @@ l = len(s)
 print (s[l//2 + l % 2:] + s[:l//2 + l % 2])
 ````
 ----
+````ruby
+s = input()
+cnt = 0
+for i in range (len(s)):
+    if s[i]!=s[i].upper():
+        if s[i] not in '1234567890':
+            cnt +=1
+print (cnt)
+````
+----
